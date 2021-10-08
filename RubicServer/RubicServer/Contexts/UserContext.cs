@@ -15,5 +15,7 @@ namespace RubicServer.Contexts
         }
 
         public DbSet<User> Users { get; set; }
+
+        public DbSet<RubicServer.Models.SMS> SMS { get; set; }
     }
 }
